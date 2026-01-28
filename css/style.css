@@ -204,7 +204,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: professionRotate 13s ease-out infinite;
+    animation: professionRotate 13s step(5) ease-out infinite;
 }
 
 @keyframes professionRotate {
@@ -219,7 +219,7 @@ section {
     40%, 55% {
         transform: rotate(-144deg);
     }
-    
+
     60%, 75% {
         transform: rotate(-216deg);
     }
@@ -232,6 +232,7 @@ section {
         transform: rotate(-360deg);
     }
 }
+
 
 
 
