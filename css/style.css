@@ -208,30 +208,23 @@ section {
 }
 
 @keyframes professionRotate {
-    0%, 15% {
-        transform: rotate(0deg);
+    0%, 20% { 
+        transform: rotate(0deg); 
+            }
+    25%, 45% { 
+        transform: rotate(-90deg); 
     }
-
-    20%, 35% {
-        transform: rotate(-72deg);
+    50%, 70% { 
+        transform: rotate(-180deg); 
     }
-
-    40%, 55% {
-        transform: rotate(-144deg);
+    75%, 95% { 
+        transform: rotate(-270deg); 
     }
-
-    60%, 75% {
-        transform: rotate(-216deg);
-    }
-
-    80%, 95% {
-        transform: rotate(-288deg);
-    }
-
-    100% {
-        transform: rotate(-360deg);
+    100% { 
+        transform: rotate(-360deg); 
     }
 }
+
 
 
 
@@ -663,9 +656,6 @@ span {
 
     .home .profession-box .profession:nth-child(4) {
         transform: rotate(180deg) translate(-220px, -325px);
-    }
-    .home .profession-box .profession:nth-child(5) {
-        transform: rotate(270deg) translate(-120px, -210px);
     }
 
     .home .profession-box .circle {
