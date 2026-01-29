@@ -208,24 +208,31 @@ section {
 }
 
 @keyframes professionRotate {
-    0%, 20% { 
-        transform: rotate(0deg); 
-            }
-    25%, 45% { 
-        transform: rotate(-90deg); 
+
+    0%,
+    20% {
+        transform: rotate(0deg);
     }
-    50%, 70% { 
-        transform: rotate(-180deg); 
+
+    25%,
+    45% {
+        transform: rotate(-90deg);
     }
-    75%, 95% { 
-        transform: rotate(-270deg); 
+
+    50%,
+    70% {
+        transform: rotate(-180deg);
     }
-    100% { 
-        transform: rotate(-360deg); 
+
+    75%,
+    95% {
+        transform: rotate(-270deg);
+    }
+
+    100% {
+        transform: rotate(-360deg);
     }
 }
-
-
 
 .home .profession-box .profession {
     position: absolute;
